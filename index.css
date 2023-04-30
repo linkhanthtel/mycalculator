@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#calculator {
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20%;
+    padding-bottom: 30%;
+    padding-left: 30%;
+    padding-right: 40%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:600px) {
+    #calculator{
+        padding-top: 60%;
+        padding-bottom: 70%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
