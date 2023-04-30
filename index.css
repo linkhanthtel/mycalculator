@@ -16,11 +16,12 @@
     grid-template-columns: 1fr 1fr;
 }
 
-@media (max-width:600px) {
+@media (max-width:1020px) {
     #calculator{
-        padding-top: 60%;
-        padding-bottom: 70%;
+        padding-top: 30%;
+        padding-bottom: 100%;
         padding-left: 10px;
         padding-right: 10px;
     }
 }
+
