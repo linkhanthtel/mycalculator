@@ -5,13 +5,14 @@
 }
 
 #calculator {
-    background-image: url(image.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 20%;
+    background-image: radial-gradient(pink,aliceblue);
+    padding-top: 10%;
     padding-bottom: 30%;
     padding-left: 30%;
     padding-right: 40%;
+}
+
+#calculator #display {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -22,6 +23,9 @@
         padding-bottom: 100%;
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    #calculator #display {
         display: grid;
         grid-template-columns: 1fr;
     }
